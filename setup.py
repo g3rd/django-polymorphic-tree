@@ -45,7 +45,8 @@ setup(
         'django-polymorphic>=0.5.5',
         'django-mptt>=0.6.0',
         'django-tag-parser>=2.0b1',
-        'future>=0.12.2',
+        'future>=0.14.1',
+        'six>=1.8.0',
     ],
     requires=[
         'Django (>=1.4)',   # Using staticfiles

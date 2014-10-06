@@ -2,7 +2,7 @@
 Model that inherits from both Polymorphic and MPTT.
 """
 from future.utils import with_metaclass
-from future.utils.six import integer_types
+from six import integer_types
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
 from mptt.models import MPTTModel, MPTTModelBase, TreeForeignKey
